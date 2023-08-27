@@ -1,0 +1,133 @@
+@font-face {
+    font-family: "mainFont";
+    src: url(../fonts/Nunito-VariableFont_wght.ttf);
+}
+
+body{
+    font-family: mainFont;
+}
+
+.bg-gray{
+    background-color: #e1e5e7 !important;
+}
+.myMain{
+    max-width: 89% !important;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.tsx{
+    color: #39579e;
+}
+.selected{
+    background-color:#f3f4f6;
+    color: #39579e !important;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+}
+.bg-nav{
+    background-color:#08275A;
+}
+nav li a{
+    color: inherit !important;
+    padding: 0px 12px 3px !important;
+}
+nav ul{
+    color:white;
+}
+.left-30{
+    left: 30px;
+}
+nav li :hover{
+    background-color:#f3f4f6;
+    color: #39579e !important;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+}
+.me-navCustom{
+    margin-right: 38px;
+}
+.subnav{
+    opacity: 90%;
+    height:60px;
+    z-index: 100;
+}
+.subnav ul{
+    color: #39579e;
+    font-size: 14px;
+}
+.subnav li :hover{
+    background-color:#39579e;
+    color: white !important;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+}
+.me-SubNavCustom{
+    margin-right: 10px;
+}
+
+.leftSection h2{
+    color: #13295a;
+}
+.leftSection p{
+    font-family: mainFont;
+    font-size: 13px;
+    font-weight: 500;
+    color: #333333;
+    line-height: 20px;
+}
+.leftSection a{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: #000000;
+    line-height: 20px;
+}
+.leftSection a:hover{
+    color: #9a7c38;
+}
+.dateAndDetails .details{
+    font-family:serif;
+    color: #2f4f97;
+}
+.dateAndDetails a{
+    font-size: 14px;
+}
+.dateAndDetails{
+    width: 100%;
+}
+.dateAndDetails .browns{
+    color: #9a7c38 !important;
+}
+.arrow{
+    padding-top: 5.5px;
+}
+
+footer p{
+    font-family:sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #333333;
+}
+footer a{
+    text-decoration: none;
+    font-family:sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    color: #13295a;
+}
+footer a:hover{
+    color: #9a7c38;
+}
+
+
+#CorporateNav,#OperationsNav,#ExplorationNav,#ShareholdersNav,#CareersNav{
+    display:none;
+}
+
+.preSelected{
+    background-color:#f3f4f6;
+    color: #39579e !important;
+    border-top-left-radius: 1px;
+    border-top-right-radius: 1px;
+}
